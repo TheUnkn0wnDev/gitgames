@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unblocked Paradise</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  </head>  
+  <body>
+     <header class="p-3 bg-gray-600 w-screen text-white">
+      <b>Unblocked Paradise</b>
+      <span id="sp"></span>
+      <a href="index.html">Homepage</a>
+      <span id="sp"></span>
+      <a href="popular.html">Popular</a>
+      <span id="sp"></span>
+      <a href="https://unblocked-paradise.glitch.me/index.html">Switch Server</a>
+      <span id="sp"></span>
+      <i>Want a game added? Email us: template@email.com</i>
+    </header>
+    <section class="p-3">
+      <p class="text-3xl">
+        Cookie Clicker
+      </p>
+      <p class="text-xl text-gray-500">
+        Click Cookies earn money simple.
+      </p>
+    </section>
+    <hr>
+    <section class="p-3">
+       
+    <div id="primary-container">
+       <iframe
+            id="mainframe"
+            src="https://glauberm.github.io/trivia-game/"
+            width="1000"
+            height="600"
+            allowfullscreen
+               ></iframe>
+        </div>
+    </section>
+
+  </body>
+</html>
