@@ -36,3 +36,14 @@ align-items: center;
 position: absolute;
 margin-top: 30px;|
 }
+
+.menu ul li {
+display: inline-block;
+padding: 25px;
+cursor: pointer;
+font-size: 19px;
+font-weight: 700;
+Line-height: 80px;
+align-items: center;
+}
+
