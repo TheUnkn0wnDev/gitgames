@@ -1,11 +1,15 @@
 
-#btn {
+a.btn {
   text-decoration: none;
   backgroung-color:#46a1eb;
   color: #fff;
   padding: 8px 20px;
   border-radius: 25px;
   margin:0 10px;
+}
+
+a.btnc {
+    backgroung-color:#46a1eb;
 }
 
 #sp {
