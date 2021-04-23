@@ -38,9 +38,11 @@ margin-top: 30px;|
 }
 
 .menu ul li {
-display: inline-block;
+display: block;
 padding: 25px;
 cursor: pointer;
+border-radius: 30px;
+background-color: #4287f5;
 font-size: 19px;
 font-weight: 700;
 Line-height: 80px;
