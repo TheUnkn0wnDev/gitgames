@@ -49,3 +49,12 @@ Line-height: 80px;
 align-items: center;
 }
 
+.banner{
+width: 80%;
+height: 70%;
+position: absolute;
+top: 25%;
+Left: 150px;
+color: #fff;
+}
+
