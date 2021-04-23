@@ -14,6 +14,13 @@
   width: 100%;
 }
 
+
+#sp {
+  border-left: thin solid #ffffff;
+  margin: 10px;
+}
+
+
 {
 margin: 0;
 padding: 0;
