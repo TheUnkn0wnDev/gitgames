@@ -1,1 +1,1 @@
-https://oliqwerty.github.io/unblocked--backup/
+https://oliqwerty.github.io/gitgames/
