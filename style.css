@@ -1,5 +1,5 @@
 #sp {
-  border-left: thin solid white;
+  border-left: thin solid #ffffff;
   margin: 10px;
 }
 
@@ -20,41 +20,3 @@ text-decoration: none;
 ul {
 List-style: none;
 }
-
-.header {
-width: 100%;
-height: 60vh;
-background-color: #fff;
-position: relative;
-}
-.header .navbart {
-width: 100%;
-height: 80px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-position: absolute;
-margin-top: 30px;
-}
-
-.menu ul li {
-display: block;
-padding: 25px;
-cursor: pointer;
-border-radius: 30px;
-background-color: #4287f5;
-font-size: 19px;
-font-weight: 700;
-Line-height: 80px;
-align-items: center;
-}
-
-.banner{
-width: 80%;
-height: 70%;
-position: absolute;
-top: 25%;
-Left: 150px;
-color: #fff;
-}
-
