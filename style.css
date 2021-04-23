@@ -1,5 +1,5 @@
 
-a.btn {
+#btn {
   text-decoration: none;
   backgroung-color:#46a1eb;
   color: #fff;
@@ -8,9 +8,6 @@ a.btn {
   margin:0 10px;
 }
 
-a.btnc {
-    backgroung-color:#46a1eb;
-}
 
 #sp {
   border-left: thin solid #ffffff;
