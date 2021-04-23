@@ -35,7 +35,9 @@ List-style: none;
 
 section {
   padding: 30px;
-  font-family: "Poppins";
   font-size: 14px;
 }
 
+header {
+  font-family: 'Nunito', sans-serif;
+}
