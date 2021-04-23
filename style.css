@@ -27,14 +27,14 @@ height: 60vh;
 background-color: #fff;
 position: relative;
 }
-.header .navbart
+.header .navbart {
 width: 100%;
 height: 80px;
 display: flex;
 justify-content: space-between;
 align-items: center;
 position: absolute;
-margin-top: 30px;|
+margin-top: 30px;
 }
 
 .menu ul li {
