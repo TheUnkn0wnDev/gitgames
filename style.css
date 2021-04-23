@@ -27,7 +27,7 @@ body {
   font-size: 14px;
 }
 
-a.btn {
+#btn {
   text-decoration: none;
   backgroung-color:#46a1eb;
   color: #fff;
