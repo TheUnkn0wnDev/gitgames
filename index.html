@@ -1,25 +1,72 @@
 <html>
   <!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>GitGames</title>    <meta http-equiv="refresh" content="5; URL=https://git-games.github.io/gitgames/home" />
-    <link href="https://git-games.github.io/gitgames/games/style.css" rel="stylesheet" /> <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"rel="stylesheet" /> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" crossorigin="anonymous">
-        </head> <body> <header class="p-3 bg-gray-600 w-screen text-white">
-      <b>GitGames</b>
+  <title>Loading</title>    <meta http-equiv="refresh" content="5; URL=https://git-games.github.io/gitgames/home" />
+  
+    
 
 
   <style>
-   .loader {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
+:root {
+	--yellow: #feb60a;
+	--red: #ff0062;
+	--blue: #00dbf9;
+	--violet: #da00f7;
+}
+	body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #1a1940;
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,153,212,0) calc(15% + 100px), rgba(0,99,138,0) calc(85% + 100px), rgba(0,0,0,0.15) 100%);
+}
+div.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div > div {
+	width: 3vw;
+	height: 3vw;
+	border-radius: 100%;
+	margin: 2vw;
+	background-image: linear-gradient(145deg, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0) 100%);
+	animation: bounce 1.5s 0.5s linear infinite;
+}
+.yellow {
+	background-color: var(--yellow);
 }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-} 
+.red {
+	background-color: var(--red);
+	animation-delay: 0.1s;
+}
+
+.blue {
+	background-color: var(--blue);
+	animation-delay: 0.2s;
+}
+
+.violet {
+	background-color: var(--violet);
+	animation-delay: 0.3s;
+}
+
+@keyframes bounce {
+	0%, 50%, 100% {
+		transform: scale(1);
+		filter: blur(0px);
+	}
+	25% {
+		transform: scale(0.6);
+		filter: blur(3px);
+	}
+	75% {
+		filter: blur(3px);
+		transform: scale(1.4);
+	}
+}
     
   </style>
   
@@ -27,7 +74,11 @@
     </header>
 
   <body>
-    
-    <div class="loader"></div>
+   <div class="container">
+	<div class="yellow"></div>
+	<div class="red"></div>
+	<div class="blue"></div>
+	<div class="violet"></div>
+</div>
   </body>
 </html>
