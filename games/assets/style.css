@@ -1,5 +1,5 @@
 body {
-  background-color: #95c2de;
+  background-color: #ffffff;
 }
 
 .mainbox {
@@ -11,7 +11,7 @@ body {
 }
 
   .err {
-    color: #ffffff;
+    color: #95c2de;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 11rem;
     position:absolute;
@@ -24,11 +24,11 @@ body {
   font-size: 8.5rem;
   left: 42%;
   top: 15%;
-  color: #ffffff;
+  color: #95c2de;
 }
 
  .err2 {
-    color: #ffffff;
+    color: #95c2de;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 11rem;
     position:absolute;
@@ -48,7 +48,7 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #95c2de;
 }
 
 a:hover {
